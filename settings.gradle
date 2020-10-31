@@ -1,1 +1,5 @@
-rootProject.name = 'playerparticles'
+rootProject.name = 'PlayerParticles'
+
+include 'playerparticles-core'
+include 'playerparticles-spigot'
+include 'playerparticles-sponge'
