@@ -3,6 +3,11 @@
 A Spigot particles plugin with more customizability than any other. Create particles around players 
 or blocks with any particle effect in the game with a plethora of skillfully crafted styles.
 
+## Replacing the old Plugin
+Delete the previous PlayerParticles.jar file, and delete the "locale" directory in "plugins/PlayerParticles/".
+
+The locale files are re-written to reflect the new command names, which is why the removal of the old instances is necessary.
+
 ### Wiki
 
 For information about how to use the plugin or API within the plugin, please refer to the [Wiki](https://github.com/Esophose/PlayerParticles/wiki)
