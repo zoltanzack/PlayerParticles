@@ -7,7 +7,9 @@ author: Esophose
 website: https://www.spigotmc.org/resources/playerparticles.40261/
 softdepend: [PlaceholderAPI, WorldGuard, WorldEdit]
 commands:
-  pp:
+  particleffect:
+    aliases: [pe, particle]
     description: The main PlayerParticles command. By default, opens the GUI.
-  ppo:
-    description: Allows executing a /pp command for another player.
+  particleffectother:
+    aliases: [peo, peother, particleother]
+    description: Allows executing a /particleffect command for another player.

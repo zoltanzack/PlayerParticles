@@ -23,12 +23,12 @@ public class SimplifiedChineseLocale implements Locale {
 
             this.put("#1", "Command Description Messages");
             this.put("command-error-missing-effects-or-styles", "&c您必须有权使用效果和样式才能使用此命令!");
-            this.put("command-error-unknown", "&c未知的指令， 请使用 &b/pp help &c查看指令列表。");
+            this.put("command-error-unknown", "&c未知的指令， 请使用 &b/pe help &c查看指令列表。");
             this.put("command-descriptions", "&e你可以使用以下指令:");
-            this.put("command-descriptions-usage", "&e/pp %cmd% %args%");
-            this.put("command-descriptions-help-1", "&7> &b/pp %cmd% &e- %desc%");
-            this.put("command-descriptions-help-2", "&7> &b/pp %cmd% %args% &e- %desc%");
-            this.put("command-descriptions-help-other", "&7> &b/ppo <player> <command> &e- 以玩家身份输入 /pp ");
+            this.put("command-descriptions-usage", "&e/pe %cmd% %args%");
+            this.put("command-descriptions-help-1", "&7> &b/pe %cmd% &e- %desc%");
+            this.put("command-descriptions-help-2", "&7> &b/pe %cmd% %args% &e- %desc%");
+            this.put("command-descriptions-help-other", "&7> &b/peo <player> <command> &e- 以玩家身份输入 /pe ");
             this.put("command-description-add", "添加新的粒子特效");
             this.put("command-description-data", "查看粒子特效使用的数据");
             this.put("command-description-default", "主指令，默认打开菜单");
@@ -50,22 +50,22 @@ public class SimplifiedChineseLocale implements Locale {
             this.put("command-description-worlds", "查看禁用粒子特效的世界");
 
             this.put("#2", "Fixed Particle Command Description Messages");
-            this.put("command-description-fixed-create", "&e/pp fixed create <<x> <y> <z>|<looking>> <特效名> <风格名> [数据名] - 创建新的定点特效");
-            this.put("command-description-fixed-create-console", "&e/pp fixed create <x> <y> <z> <世界> <特效名> <风格名> [数据名] - 创建新的定点特效");
-            this.put("command-description-fixed-edit", "&e/pp fixed edit <id> <effect|style|data|location> <参数> - 根据ID编辑定点特效");
-            this.put("command-description-fixed-remove", "&e/pp fixed remove <id> - 根据ID删除定点特效");
-            this.put("command-description-fixed-list", "&e/pp fixed list - 列出所有定点特效的ID");
-            this.put("command-description-fixed-info", "&e/pp fixed info <id> - 获取定点特效的详细信息");
-            this.put("command-description-fixed-clear", "&e/pp fixed clear <半径> - 清空指定范围内的所有定点特效");
-            this.put("command-description-fixed-clear-console", "&e/pp fixed clear <半径> <x> <y> <z> <世界> - 清空指定范围内的所有定点特效");
-            this.put("command-description-fixed-teleport", "&e/pp fixed teleport <id> - 传送你到固定效果之一");
+            this.put("command-description-fixed-create", "&e/pe fixed create <<x> <y> <z>|<looking>> <特效名> <风格名> [数据名] - 创建新的定点特效");
+            this.put("command-description-fixed-create-console", "&e/pe fixed create <x> <y> <z> <世界> <特效名> <风格名> [数据名] - 创建新的定点特效");
+            this.put("command-description-fixed-edit", "&e/pe fixed edit <id> <effect|style|data|location> <参数> - 根据ID编辑定点特效");
+            this.put("command-description-fixed-remove", "&e/pe fixed remove <id> - 根据ID删除定点特效");
+            this.put("command-description-fixed-list", "&e/pe fixed list - 列出所有定点特效的ID");
+            this.put("command-description-fixed-info", "&e/pe fixed info <id> - 获取定点特效的详细信息");
+            this.put("command-description-fixed-clear", "&e/pe fixed clear <半径> - 清空指定范围内的所有定点特效");
+            this.put("command-description-fixed-clear-console", "&e/pe fixed clear <半径> <x> <y> <z> <世界> - 清空指定范围内的所有定点特效");
+            this.put("command-description-fixed-teleport", "&e/pe fixed teleport <id> - 传送你到固定效果之一");
 
             this.put("#2.5", "Group Command Description Messages");
-            this.put("command-description-group-save", "&e/pp group save <组名> - 保存所有你使用的特效到新的组内");
-            this.put("command-description-group-load", "&e/pp group load <组名> - 加载所有你保存组内的特效");
-            this.put("command-description-group-remove", "&e/pp group remove <组名> - 删除一组你保存的特效");
-            this.put("command-description-group-list", "&e/pp group list <组名> - 列出所有你保存的特效组");
-            this.put("command-description-group-info", "&e/pp group info <组名> - 列出组内的特效信息");
+            this.put("command-description-group-save", "&e/pe group save <组名> - 保存所有你使用的特效到新的组内");
+            this.put("command-description-group-load", "&e/pe group load <组名> - 加载所有你保存组内的特效");
+            this.put("command-description-group-remove", "&e/pe group remove <组名> - 删除一组你保存的特效");
+            this.put("command-description-group-list", "&e/pe group list <组名> - 列出所有你保存的特效组");
+            this.put("command-description-group-info", "&e/pe group info <组名> - 列出组内的特效信息");
 
             this.put("#3", "ID Messages");
             this.put("id-invalid", "&c你输入的ID无效， 必须是正整数!");
@@ -73,15 +73,15 @@ public class SimplifiedChineseLocale implements Locale {
 
             this.put("#4", "Other Messages");
             this.put("other-no-permission", "&c你没有权限对其他玩家使用PlayerParticles的指令!");
-            this.put("other-missing-args", "&c缺少参数。 &b/ppo <player> <command>");
+            this.put("other-missing-args", "&c缺少参数。 &b/peo <player> <command>");
             this.put("other-unknown-player", "&c找不到玩家&b%player%&c。玩家必须在线。");
-            this.put("other-unknown-command", "&c指令&b/pp %cmd% &c不存在。");
-            this.put("other-success", "&e已为&b%player%&e执行指令 /pp 。 输出:");
+            this.put("other-unknown-command", "&c指令&b/pe %cmd% &c不存在。");
+            this.put("other-success", "&e已为&b%player%&e执行指令 /pe 。 输出:");
 
             this.put("#5", "Add Messages");
             this.put("add-reached-max", "&c无法使用粒子效果，你已达到上限:&b%amount%&c!");
             this.put("add-particle-applied", "&a成功添加新的粒子特效： &b%effect%&a， 风格： &b%style%&a，数据： &b%data%&a!");
-            this.put("data-no-args", "&c该特效缺失参数! 指令用法: &b/pp data <effect>");
+            this.put("data-no-args", "&c该特效缺失参数! 指令用法: &b/pe data <effect>");
 
             this.put("#6", "Edit Messages");
             this.put("edit-invalid-property", "&c您输入的参数&b%prop%&c无效。 有效参数为: &beffect&c， &bstyle&c， &bdata");
@@ -94,7 +94,7 @@ public class SimplifiedChineseLocale implements Locale {
             this.put("group-no-permission", "&c你没有使用&b%group%&c的权限!");
             this.put("group-preset-no-permission", "&c你没有使用预设粒子组&b%group%&c的权限!");
             this.put("group-reserved", "&c该组名&b&c无法使用!");
-            this.put("group-no-name", "&c你没有输入组名! &b/pp %cmd% <组名>");
+            this.put("group-no-name", "&c你没有输入组名! &b/pe %cmd% <组名>");
             this.put("group-save-reached-max", "&c无法保存粒子组，你已达到可使用粒子组的上限!");
             this.put("group-save-no-particles", "&c无法保存粒子组，你没有添加任何粒子!");
             this.put("group-save-success", "&a你当前使用的粒子特效已成功保存入粒子组&b%name%&a内!");
@@ -113,7 +113,7 @@ public class SimplifiedChineseLocale implements Locale {
             this.put("reload-no-permission", "&c你没有重载插件配置的指令!");
 
             this.put("#9", "Remove Messages");
-            this.put("remove-no-args", "&c你没有指定要删除的ID! &b/pp remove <ID>");
+            this.put("remove-no-args", "&c你没有指定要删除的ID! &b/pe remove <ID>");
             this.put("remove-id-success", "&a你已成功删除ID为&b%id%&a的粒子特效!");
             this.put("remove-effect-success", "&a成功删除&b%amount%&a个&b%effect%&a特效的粒子!");
             this.put("remove-effect-none", "&c你没有使用特效&b%effect%&c的粒子!");
@@ -140,14 +140,14 @@ public class SimplifiedChineseLocale implements Locale {
 
             this.put("#13", "Effect Messages");
             this.put("effect-no-permission", "&c你没有使用特效&b%effect%的权限&c!");
-            this.put("effect-invalid", "&c特效&b%effect% &c不存在! 请输入&b/pp effects &c查看你可以使用的特效。");
+            this.put("effect-invalid", "&c特效&b%effect% &c不存在! 请输入&b/pe effects &c查看你可以使用的特效。");
             this.put("effect-list", "&e你可以使用以下特效: &b%effects%");
             this.put("effect-list-empty", "&c你没有使用任何特效的权限!");
 
             this.put("#14", "Style Messages");
             this.put("style-no-permission", "&c你没有权限使用&b%style%这一风格&c!");
             this.put("style-event-spawning-info", "&e提醒: 风格&b%style%&e基于事件生成。");
-            this.put("style-invalid", "&c风格&b%style%&c不存在! 请输入&b/pp styles &c查看你可以使用的风格。");
+            this.put("style-invalid", "&c风格&b%style%&c不存在! 请输入&b/pe styles &c查看你可以使用的风格。");
             this.put("style-list", "&e你可以使用以下风格: &b%styles%");
 
             this.put("#15", "Data Messages");
@@ -184,7 +184,7 @@ public class SimplifiedChineseLocale implements Locale {
             this.put("fixed-create-style-invalid", "&c无法创建定点特效， 名为&b%style%&c的风格不存在!");
             this.put("fixed-create-style-no-permission", "&c无法创建定点特效， 你没有权限使用风格&b%style%&c!");
             this.put("fixed-create-style-non-fixable", "&c无法创建定点特效， 风格&b%style%&c无法用于定点特效!");
-            this.put("fixed-create-data-error", "&c无法创建定点特效， 你所给出的数据有误! 请输入 &b/pp data <effect> &c查看正确的数据格式!");
+            this.put("fixed-create-data-error", "&c无法创建定点特效， 你所给出的数据有误! 请输入 &b/pe data <effect> &c查看正确的数据格式!");
             this.put("fixed-create-success", "&a成功创建定点特效!");
 
             this.put("#19", "Fixed Edit Messages");
@@ -199,7 +199,7 @@ public class SimplifiedChineseLocale implements Locale {
             this.put("fixed-edit-style-invalid", "&c无法编辑定点特效， 名为&b%style%&c的风格不存在!");
             this.put("fixed-edit-style-no-permission", "&c无法编辑定点特效， 你没有权限使用风格&b%style%&c!");
             this.put("fixed-edit-style-non-fixable", "&c无法编辑定点特效， 风格 &b%style% &c无法用于定点特效!");
-            this.put("fixed-edit-data-error", "&c无法编辑定点特效， 数据有误! 请输入 &b/pp data <effect> &cto 来获取正确的数据格式!");
+            this.put("fixed-edit-data-error", "&c无法编辑定点特效， 数据有误! 请输入 &b/pe data <effect> &cto 来获取正确的数据格式!");
             this.put("fixed-edit-data-none", "&c无法编辑定点特效， 该特效无需数据!");
             this.put("fixed-edit-success", "&a已更新&b%prop%&a个ID为&b%id%&a的定点特效!");
 
@@ -250,7 +250,7 @@ public class SimplifiedChineseLocale implements Locale {
             this.put("gui-color-unavailable", "&c");
 
             this.put("#28", "GUI Info Messages");
-            this.put("gui-commands-info", "输入 &b/pp help 查看指令帮助");
+            this.put("gui-commands-info", "输入 &b/pe help 查看指令帮助");
             this.put("gui-toggle-visibility-on", "粒子目前可见");
             this.put("gui-toggle-visibility-off", "粒子目前被隐藏");
             this.put("gui-toggle-visibility-info", "单击以切换粒子的可见性");
@@ -292,7 +292,7 @@ public class SimplifiedChineseLocale implements Locale {
             this.put("gui-save-group-full", "你已达到粒子组上限");
             this.put("gui-save-group-no-particles", "你没有使用粒子特效");
             this.put("gui-save-group-hotbar-message", "&e请在聊天框内输入&b1 &e新的粒子组名。 输入 &ccancel&e 取消。 (剩余&b%seconds%&e秒)");
-            this.put("gui-save-group-chat-message", "&e使用&b/pp group save <名称>&e来保存一个新的粒子组。");
+            this.put("gui-save-group-chat-message", "&e使用&b/pe group save <名称>&e来保存一个新的粒子组。");
 
             this.put("#33", "GUI Reset Messages");
             this.put("gui-reset-particles", "重置你的粒子特效");

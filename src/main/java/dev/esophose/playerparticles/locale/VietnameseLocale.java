@@ -23,12 +23,12 @@ public class VietnameseLocale implements Locale {
 
             this.put("#1", "Command Description Messages");
             this.put("command-error-missing-effects-or-styles", "&cBạn phải có quyền truy cập vào các hiệu ứng và phong cách để sử dụng lệnh này!");
-            this.put("command-error-unknown", "&cLệnh không đúng, &6/pp help &cđể xem danh sách các câu lệnh.");
+            this.put("command-error-unknown", "&cLệnh không đúng, &6/pe help &cđể xem danh sách các câu lệnh.");
             this.put("command-descriptions", "&eCác lệnh có sẵn:");
-            this.put("command-descriptions-usage", "&e/pp %cmd% %args%");
-            this.put("command-descriptions-help-1", "&7> &b/pp %cmd% &e- %desc%");
-            this.put("command-descriptions-help-2", "&7> &b/pp %cmd% %args% &e- %desc%");
-            this.put("command-descriptions-help-other", "&7> &b/ppo <player> <command> &e- Chạy lệnh /pp bằng player");
+            this.put("command-descriptions-usage", "&e/pe %cmd% %args%");
+            this.put("command-descriptions-help-1", "&7> &b/pe %cmd% &e- %desc%");
+            this.put("command-descriptions-help-2", "&7> &b/pe %cmd% %args% &e- %desc%");
+            this.put("command-descriptions-help-other", "&7> &b/peo <player> <command> &e- Chạy lệnh /pe bằng player");
             this.put("command-description-add", "Thêm một hiệu ứng mới");
             this.put("command-description-data", "Kiểm tra laoị dữ liệu mà hiệu ứng sử dụng");
             this.put("command-description-default", "Đã mở GUI hiệu ứng");
@@ -50,22 +50,22 @@ public class VietnameseLocale implements Locale {
             this.put("command-description-worlds", "Hiển thị danh sách thế giới bị cấm hiệu ứng");
 
             this.put("#2", "Fixed Particle Command Description Messages");
-            this.put("command-description-fixed-create", "&e/pp fixed create <<x> <y> <z>|<looking>> <effect> <style> [data] - Tạo mới một hiệu ứng cố định");
-            this.put("command-description-fixed-create-console", "&e/pp fixed create <x> <y> <z> <world> <effect> <style> [data] - Tạo mới một hiệu ứng cố định");
-            this.put("command-description-fixed-edit", "&e/pp fixed edit <id> <effect|style|data|location> <args> - Chỉnh sửa hiệu ứng cố định bằng IDs của nó");
-            this.put("command-description-fixed-remove", "&e/pp fixed remove <id> - Xóa hiệu ứng cố định");
-            this.put("command-description-fixed-list", "&e/pp fixed list - Danh sách các hiệu ứng cố định dưới dạng IDs");
-            this.put("command-description-fixed-info", "&e/pp fixed info <id> - Hiển thị thông tin về hiệu ứng cố định");
-            this.put("command-description-fixed-clear", "&e/pp fixed clear <radius> - Xóa toàn bộ hiệu ứng trong khu vực bán kính");
-            this.put("command-description-fixed-clear-console", "&e/pp fixed clear <radius> <x> <y> <z> <world> - Xóa toàn bộ hiệu ứng trong khu vực bán kính");
-            this.put("command-description-fixed-teleport", "&e/pp fixed teleport <id> - Dịch chuyển bạn đến một trong những hiệu ứng cố định của bạn");
+            this.put("command-description-fixed-create", "&e/pe fixed create <<x> <y> <z>|<looking>> <effect> <style> [data] - Tạo mới một hiệu ứng cố định");
+            this.put("command-description-fixed-create-console", "&e/pe fixed create <x> <y> <z> <world> <effect> <style> [data] - Tạo mới một hiệu ứng cố định");
+            this.put("command-description-fixed-edit", "&e/pe fixed edit <id> <effect|style|data|location> <args> - Chỉnh sửa hiệu ứng cố định bằng IDs của nó");
+            this.put("command-description-fixed-remove", "&e/pe fixed remove <id> - Xóa hiệu ứng cố định");
+            this.put("command-description-fixed-list", "&e/pe fixed list - Danh sách các hiệu ứng cố định dưới dạng IDs");
+            this.put("command-description-fixed-info", "&e/pe fixed info <id> - Hiển thị thông tin về hiệu ứng cố định");
+            this.put("command-description-fixed-clear", "&e/pe fixed clear <radius> - Xóa toàn bộ hiệu ứng trong khu vực bán kính");
+            this.put("command-description-fixed-clear-console", "&e/pe fixed clear <radius> <x> <y> <z> <world> - Xóa toàn bộ hiệu ứng trong khu vực bán kính");
+            this.put("command-description-fixed-teleport", "&e/pe fixed teleport <id> - Dịch chuyển bạn đến một trong những hiệu ứng cố định của bạn");
 
             this.put("#2.5", "Group Command Description Messages");
-            this.put("command-description-group-save", "&e/pp group save <name> - Lưu toàn bộ hiêu ứng hoạt động vào Group mới");
-            this.put("command-description-group-load", "&e/pp group load <name> - Load toàn bộ hiệu ứng hoạt động trong group");
-            this.put("command-description-group-remove", "&e/pp group remove <name> - Xóa một group bạn đã lưu");
-            this.put("command-description-group-list", "&e/pp group list <name> - Hiển thị danh sách Group hiệu ứng bạn đã lưu");
-            this.put("command-description-group-info", "&e/pp group info <name> - Hiển thị danh sách hiệu ứng bạn đang lưu trong group");
+            this.put("command-description-group-save", "&e/pe group save <name> - Lưu toàn bộ hiêu ứng hoạt động vào Group mới");
+            this.put("command-description-group-load", "&e/pe group load <name> - Load toàn bộ hiệu ứng hoạt động trong group");
+            this.put("command-description-group-remove", "&e/pe group remove <name> - Xóa một group bạn đã lưu");
+            this.put("command-description-group-list", "&e/pe group list <name> - Hiển thị danh sách Group hiệu ứng bạn đã lưu");
+            this.put("command-description-group-info", "&e/pe group info <name> - Hiển thị danh sách hiệu ứng bạn đang lưu trong group");
 
             this.put("#3", "ID Messages");
             this.put("id-invalid", "&cID bạn nhập không tồn tại, nó phải là một số nguyên dương!");
@@ -73,15 +73,15 @@ public class VietnameseLocale implements Locale {
 
             this.put("#4", "Other Messages");
             this.put("other-no-permission", "&cbạn không có quyền để thi hành lệnh của plugins cho người chơi khác!");
-            this.put("other-missing-args", "&cBạn đã quên một vài đối số. &b/ppo <player> <command>");
+            this.put("other-missing-args", "&cBạn đã quên một vài đối số. &b/peo <player> <command>");
             this.put("other-unknown-player", "&cKhông thể tìm thấy người chơi &b%player% &c. Người chơi được chỉ định phải Online.");
-            this.put("other-unknown-command", "&cLệnh &b/pp %cmd% &ckhông tồn tại.");
-            this.put("other-success", "&eThi hành lệnh /pp command cho &b%player%&e. Output:");
+            this.put("other-unknown-command", "&cLệnh &b/pe %cmd% &ckhông tồn tại.");
+            this.put("other-success", "&eThi hành lệnh /pe command cho &b%player%&e. Output:");
 
             this.put("#5", "Add Messages");
             this.put("add-reached-max", "&Không thể áp dụng hiệu ứng, Bạn đã đạt tới số lượng giới hạn của&b%amount% &cđược cho phép!");
             this.put("add-particle-applied", "&aHạt (Particle) mới đã được áp dụng với effect &b%effect%&a, style &b%style%&a, và data &b%data%&a!");
-            this.put("data-no-args", "&cĐã quên một đối số cho effect! Lệnh đúng: &b/pp data <effect>");
+            this.put("data-no-args", "&cĐã quên một đối số cho effect! Lệnh đúng: &b/pe data <effect>");
 
             this.put("#6", "Edit Messages");
             this.put("edit-invalid-property", "&cMột property không hợp lệ &b%prop% &cwđã được cung cấp. properties hợp lệ: &beffect&c, &bstyle&c, &bdata");
@@ -94,7 +94,7 @@ public class VietnameseLocale implements Locale {
             this.put("group-no-permission", "&cBạn không có quyền for 1 effect, style để sử dụng nhóm sẵn &b%group%&c!");
             this.put("group-preset-no-permission", "&cBạn không có quyền for 1 effect, style để sử dụng nhóm cài sẵn &b%group%&c!");
             this.put("group-reserved", "&cGroup tên &bactive &ckhông thể được sử dụng!");
-            this.put("group-no-name", "&cBạn đã không cung cấp tên group! &b/pp %cmd% <groupName>");
+            this.put("group-no-name", "&cBạn đã không cung cấp tên group! &b/pe %cmd% <groupName>");
             this.put("group-save-reached-max", "&cKhông thể lưu Group , bạn đã đạt giới hạn số lượng group có thể tạo!");
             this.put("group-save-no-particles", "&cKhông thể lưu group, bạn không có bất kì *hạt được được áp dụng nào!");
             this.put("group-save-success", "&aHạt hiệu ứng của bạn đã được lưu dưới tên của group &b%name%&a!");
@@ -113,7 +113,7 @@ public class VietnameseLocale implements Locale {
             this.put("reload-no-permission", "&cBạn không có quyền để tải lại plugins!");
 
             this.put("#9", "Remove Messages");
-            this.put("remove-no-args", "&cBạn không chỉ định IDs để xóa! &b/pp remove <ID>");
+            this.put("remove-no-args", "&cBạn không chỉ định IDs để xóa! &b/pe remove <ID>");
             this.put("remove-id-success", "&aHạt hiệu ứng của bạ với IDs &b%id% &ađã bị xóa!");
             this.put("remove-effect-success", "&aĐã xóa &b%amount% &ahạt hiệu ứng của bạn với hiệu ứng &b%effect%&a!");
             this.put("remove-effect-none", "&cBạn không có bất kì Hạt hiệu ứng nào để áp dụng hiệu ứng &b%effect%&c!");
@@ -140,14 +140,14 @@ public class VietnameseLocale implements Locale {
 
             this.put("#13", "Effect Messages");
             this.put("effect-no-permission", "&cBạn không có quyền để sử dụng Hiệu ứng &b%effect% &c!");
-            this.put("effect-invalid", "&cHiệu ứng &b%effect% &ckhông tồn tại! Sử dụng &b/pp effects &cđể hiển thị danh sách hiệu ứng bạn có thể dùng.");
+            this.put("effect-invalid", "&cHiệu ứng &b%effect% &ckhông tồn tại! Sử dụng &b/pe effects &cđể hiển thị danh sách hiệu ứng bạn có thể dùng.");
             this.put("effect-list", "&eBạn có thể sử dụng các hiệu ứng sau: &b%effects%");
             this.put("effect-list-empty", "&cBạn không có quyền để sử dụng bất kì hiệu ứng nào!");
 
             this.put("#14", "Style Messages");
             this.put("style-no-permission", "&cbạn không có quyền để sử dụng Kiểu hiệu ứng &b%style% &c!");
             this.put("style-event-spawning-info", "&eNhắc nhở: Kiểu hiệu ứng &b%style% &esinh ra dựa trên sự kiện nhất định được xảy ra.");
-            this.put("style-invalid", "&cKiểu hiệu ứng &b%style% &ckhông tồn tại! Use &b/pp styles &cđể hiển thị danh sách Kiểu hiệu ứng bạn có thể dùng.");
+            this.put("style-invalid", "&cKiểu hiệu ứng &b%style% &ckhông tồn tại! Use &b/pe styles &cđể hiển thị danh sách Kiểu hiệu ứng bạn có thể dùng.");
             this.put("style-list", "&eBạn có thể sử dụng các Kiểu hiệu ứng sau: &b%styles%");
 
             this.put("#15", "Data Messages");
@@ -184,7 +184,7 @@ public class VietnameseLocale implements Locale {
             this.put("fixed-create-style-invalid", "&cKhông thể tạo Hiệu ứng cố định, Kiểu hiệu ứng với tên &b%style% &ckhông tồn tại!");
             this.put("fixed-create-style-no-permission", "&cKhông thể tạo Hiệu ứng cố định, bạn không có quyền để sử dụng Kiểu hiệu ứng &b%style%&c!");
             this.put("fixed-create-style-non-fixable", "&cKhông thể tạo Hiệu ứng cố định, Kiểu hiệu ứng &b%style% &ckhông thể được sử dụng trong Hiệu ứng cố định!");
-            this.put("fixed-create-data-error", "&cKhông thể tạo Hiệu ứng cố định, Dữ liệu bạn đã cung cấp không đúng! Sử dụng &b/pp data <effect> &cđể xem định dạng dữ liệu đúng!");
+            this.put("fixed-create-data-error", "&cKhông thể tạo Hiệu ứng cố định, Dữ liệu bạn đã cung cấp không đúng! Sử dụng &b/pe data <effect> &cđể xem định dạng dữ liệu đúng!");
             this.put("fixed-create-success", "&aHiệu ứng cố định của bạn đã được tạo!");
 
             this.put("#19", "Fixed Edit Messages");
@@ -199,7 +199,7 @@ public class VietnameseLocale implements Locale {
             this.put("fixed-edit-style-invalid", "&cKhông thể điều chỉnh Hiệu ứng cố định, Kiểu hiệu ứng &b%style% &ckhông tồn tại!");
             this.put("fixed-edit-style-no-permission", "&cKhông thể điều chỉnh Hiệu ứng cố định, bạn không có quyền để sử dụng kiểu hiệu ứng &b%style%&c!");
             this.put("fixed-edit-style-non-fixable", "&cKhông thể điều chỉnh Hiệu ứng cố định, Kiểu hiệu ứng &b%style% &ckhông thể được sử dụng trong Hiệu ứng cố định!");
-            this.put("fixed-edit-data-error", "&cKhông thể điều chỉnh Hiệu ứng cố định, Dữ liệu bạn đã cung cấp không đúng! Sử dụng &b/pp data <effect> &cđể xem định dạng dữ liệu đúng!");
+            this.put("fixed-edit-data-error", "&cKhông thể điều chỉnh Hiệu ứng cố định, Dữ liệu bạn đã cung cấp không đúng! Sử dụng &b/pe data <effect> &cđể xem định dạng dữ liệu đúng!");
             this.put("fixed-edit-data-none", "&cKhông thể điều chỉnh Hiệu ứng cố định, Hiệu ứng không yêu cầu bất cứ Dữ liệu nào!");
             this.put("fixed-edit-success", "&aĐã cập nhật &b%prop% &acủa Hiệu ứng cố định với một ID của &b%id%&a!");
 
@@ -234,7 +234,7 @@ public class VietnameseLocale implements Locale {
             this.put("#24", "Fixed Other Messages");
             this.put("fixed-no-permission", "&cBạn không có quyền để làm điều này!");
             this.put("fixed-max-reached", "&cBạn đã đạt tới giới hạn số Hiệu ứng cố định có thể sử dụng!");
-            this.put("fixed-invalid-command", "&cLệnh phụ không hợp lệ, &b/pp fixed&c!");
+            this.put("fixed-invalid-command", "&cLệnh phụ không hợp lệ, &b/pe fixed&c!");
 
             this.put("#25", "Plugin Update Message");
             this.put("update-available", "&eĐã có bản cập nhật (&bv%new%&e)! bạn đang sử dụng &bv%current%&e. https://www.spigotmc.org/resources/playerparticles.40261/");
@@ -250,7 +250,7 @@ public class VietnameseLocale implements Locale {
             this.put("gui-color-unavailable", "&c");
 
             this.put("#28", "GUI Info Messages");
-            this.put("gui-commands-info", "Hiển thị thêm các lệnh bằng cách gõ &b/pp help");
+            this.put("gui-commands-info", "Hiển thị thêm các lệnh bằng cách gõ &b/pe help");
             this.put("gui-toggle-visibility-on", "Các hạt hiện có thể nhìn thấy được");
             this.put("gui-toggle-visibility-off", "Các hạt hiện đang bị ẩn");
             this.put("gui-toggle-visibility-info", "Nhấp để chuyển đổi chế độ hiển thị hạt");
@@ -292,7 +292,7 @@ public class VietnameseLocale implements Locale {
             this.put("gui-save-group-full", "Bạn đã đạt đến giới hạn số lượng group có thể tạo");
             this.put("gui-save-group-no-particles", "Bạn không có bất kì Hhạt hiệu ứng nào được áp dụng");
             this.put("gui-save-group-hotbar-message", "&eNhập &b1 &etên group trong chat. Nhập &ccancel&e để hủy. (&b%seconds%&es left)");
-            this.put("gui-save-group-chat-message", "&eSử dụng &b/pp group save <Tên> &eđể lưu một nhóm hạt mới.");
+            this.put("gui-save-group-chat-message", "&eSử dụng &b/pe group save <Tên> &eđể lưu một nhóm hạt mới.");
 
             this.put("#33", "GUI Reset Messages");
             this.put("gui-reset-particles", "Làm mới Hạt hiệu ứng của bạn");

@@ -45,11 +45,14 @@ public class CommandManager extends Manager implements CommandExecutor, TabCompl
     private List<CommandModule> commands;
     private CommandModuleSecondary ppoCommand;
 
+    private static final String mainCommandString = "particleffect";
+    private static final String otherCommandString = "particleffectother";
+
     public CommandManager(PlayerParticles playerParticles) {
         super(playerParticles);
 
-        PluginCommand pp = this.playerParticles.getCommand("pp");
-        PluginCommand ppo = this.playerParticles.getCommand("ppo");
+        PluginCommand pp = this.playerParticles.getCommand(mainCommandString); // Self
+        PluginCommand ppo = this.playerParticles.getCommand(otherCommandString); // Other
 
         if (pp == null || ppo == null) {
             Bukkit.getPluginManager().disablePlugin(this.playerParticles);
@@ -141,7 +144,7 @@ public class CommandManager extends Manager implements CommandExecutor, TabCompl
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         LocaleManager localeManager = PlayerParticles.getInstance().getManager(LocaleManager.class);
 
-        if (cmd.getName().equalsIgnoreCase("pp")) {
+        if (cmd.getName().equalsIgnoreCase(mainCommandString)) {
             String commandName = args.length > 0 ? args[0] : "";
             CommandModule commandModule = this.findMatchingCommand(commandName);
             if (commandModule == null) {
@@ -175,7 +178,7 @@ public class CommandManager extends Manager implements CommandExecutor, TabCompl
             });
 
             return true;
-        } else if (cmd.getName().equalsIgnoreCase("ppo")) {
+        } else if (cmd.getName().equalsIgnoreCase(otherCommandString)) {
             Bukkit.getScheduler().runTask(this.playerParticles, () -> this.ppoCommand.onCommandExecute(sender, args));
         }
         

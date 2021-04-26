@@ -23,12 +23,12 @@ public class RussianLocale implements Locale {
 
             this.put("#1", "Command Description Messages");
             this.put("command-error-missing-effects-or-styles", "&cВы должны иметь доступ к эффектам и стилям, чтобы использовать эту команду!");
-            this.put("command-error-unknown", "&cНеизвестная команда, напишите &b/pp help &c, чтобы узнать команды.");
+            this.put("command-error-unknown", "&cНеизвестная команда, напишите &b/pe help &c, чтобы узнать команды.");
             this.put("command-descriptions", "&eВам доступны команды ниже:");
-            this.put("command-descriptions-usage", "&e/pp %cmd% %args%");
-            this.put("command-descriptions-help-1", "&7> &b/pp %cmd% &e- %desc%");
-            this.put("command-descriptions-help-2", "&7> &b/pp %cmd% %args% &e- %desc%");
-            this.put("command-descriptions-help-other", "&7> &b/ppo <Игрок> <Команда> &e- Посмотреть командны /pp от лица другого игрока.");
+            this.put("command-descriptions-usage", "&e/pe %cmd% %args%");
+            this.put("command-descriptions-help-1", "&7> &b/pe %cmd% &e- %desc%");
+            this.put("command-descriptions-help-2", "&7> &b/pe %cmd% %args% &e- %desc%");
+            this.put("command-descriptions-help-other", "&7> &b/peo <Игрок> <Команда> &e- Посмотреть командны /pe от лица другого игрока.");
             this.put("command-description-add", "Добавить новые частицы.");
             this.put("command-description-data", "Проверить, какой тип данных использует эффект.");
             this.put("command-description-default", "Главная команда. Обычно открывает интерфейс.");
@@ -50,22 +50,22 @@ public class RussianLocale implements Locale {
             this.put("command-description-worlds", "Узнать, в каком мире Ваши частицы отключены.");
 
             this.put("#2", "Fixed Particle Command Description Messages");
-            this.put("command-description-fixed-create", "&e/pp fixed create <<x> <y> <z>|<looking>> <Эффект> <Стиль> [данные] - Создаёт новый эффект.");
-            this.put("command-description-fixed-create-console", "&e/pp fixed create <x> <y> <z> <Мир> <Эффект> <Стиль> [данные] - Создаёт новый эффект.");
-            this.put("command-description-fixed-edit", "&e/pp fixed edit <id> <effect|style|data|location> <аргумент> - Изменяет чать эффекта по его ID.");
-            this.put("command-description-fixed-remove", "&e/pp fixed remove <id> - Удаляет эффект по его ID.");
-            this.put("command-description-fixed-list", "&e/pp fixed list - Показывает список ID всех Ваших эффектов.");
-            this.put("command-description-fixed-info", "&e/pp fixed info <id> - Показывает информацию об одном из Ваших эффектов.");
-            this.put("command-description-fixed-clear", "&e/pp fixed clear <Радиус> - Удаляет все эффекты игроков, находящихся в заданном радиусе.");
-            this.put("command-description-fixed-clear-console", "&e/pp fixed clear <Радиус> <x> <y> <z> <Мир> - Удаляет все эффекты игроков, находящихся в заданном радиусе.");
-            this.put("command-description-fixed-teleport", "&e/pp fixed teleport <id> - Телепортирует вас к одному из ваших фиксированных эффектов");
+            this.put("command-description-fixed-create", "&e/pe fixed create <<x> <y> <z>|<looking>> <Эффект> <Стиль> [данные] - Создаёт новый эффект.");
+            this.put("command-description-fixed-create-console", "&e/pe fixed create <x> <y> <z> <Мир> <Эффект> <Стиль> [данные] - Создаёт новый эффект.");
+            this.put("command-description-fixed-edit", "&e/pe fixed edit <id> <effect|style|data|location> <аргумент> - Изменяет чать эффекта по его ID.");
+            this.put("command-description-fixed-remove", "&e/pe fixed remove <id> - Удаляет эффект по его ID.");
+            this.put("command-description-fixed-list", "&e/pe fixed list - Показывает список ID всех Ваших эффектов.");
+            this.put("command-description-fixed-info", "&e/pe fixed info <id> - Показывает информацию об одном из Ваших эффектов.");
+            this.put("command-description-fixed-clear", "&e/pe fixed clear <Радиус> - Удаляет все эффекты игроков, находящихся в заданном радиусе.");
+            this.put("command-description-fixed-clear-console", "&e/pe fixed clear <Радиус> <x> <y> <z> <Мир> - Удаляет все эффекты игроков, находящихся в заданном радиусе.");
+            this.put("command-description-fixed-teleport", "&e/pe fixed teleport <id> - Телепортирует вас к одному из ваших фиксированных эффектов");
 
             this.put("#2.5", "Group Command Description Messages");
-            this.put("command-description-group-save", "&e/pp group save <Имя> - Сохраняет все активные частицы в новой группе.");
-            this.put("command-description-group-load", "&e/pp group load <name> - Загружает все частицы, сохранённые в группе.");
-            this.put("command-description-group-remove", "&e/pp group remove <name> - Удаляет сохранённую Вами группу.");
-            this.put("command-description-group-list", "&e/pp group list <name> - Список всех групп частиц, которые Вы сохранили.");
-            this.put("command-description-group-info", "&e/pp group info <name> - Показывает частицы, сохранённые в группе.");
+            this.put("command-description-group-save", "&e/pe group save <Имя> - Сохраняет все активные частицы в новой группе.");
+            this.put("command-description-group-load", "&e/pe group load <name> - Загружает все частицы, сохранённые в группе.");
+            this.put("command-description-group-remove", "&e/pe group remove <name> - Удаляет сохранённую Вами группу.");
+            this.put("command-description-group-list", "&e/pe group list <name> - Список всех групп частиц, которые Вы сохранили.");
+            this.put("command-description-group-info", "&e/pe group info <name> - Показывает частицы, сохранённые в группе.");
 
             this.put("#3", "ID Messages");
             this.put("id-invalid", "&cID, который Вы ввели, недействительный, это должно быть целое число!");
@@ -73,15 +73,15 @@ public class RussianLocale implements Locale {
 
             this.put("#4", "Other Messages");
             this.put("other-no-permission", "&cВы не имеете права, чтобы выполнять команды от других игроков!");
-            this.put("other-missing-args", "&cВы не ввели некоторые аргументы. &b/ppo <Игрок> <Команда>");
+            this.put("other-missing-args", "&cВы не ввели некоторые аргументы. &b/peo <Игрок> <Команда>");
             this.put("other-unknown-player", "&cИгрок &b%player% &cwas не найден. Скорее всего игрок оффлайн.");
-            this.put("other-unknown-command", "&cКоманды &b/pp %cmd% &cне существует.");
-            this.put("other-success", "&eВыполнена команда /pp от лица &b%player%&e. Результат:");
+            this.put("other-unknown-command", "&cКоманды &b/pe %cmd% &cне существует.");
+            this.put("other-success", "&eВыполнена команда /pe от лица &b%player%&e. Результат:");
 
             this.put("#5", "Add Messages");
             this.put("add-reached-max", "&cНевозможно применить частицу, Вы использовали &b%amount% &c, максимум допустимых!");
             this.put("add-particle-applied", "&aНовая частица была приложена к эффекту &b%effect%&a, стилю &b%style%&a и данным &b%data%&a!");
-            this.put("data-no-args", "&cВы не ввели аргумент для эффекта! Используйте &b/pp data <Эффект>");
+            this.put("data-no-args", "&cВы не ввели аргумент для эффекта! Используйте &b/pe data <Эффект>");
 
             this.put("#6", "Edit Messages");
             this.put("edit-invalid-property", "&cНедействительное свойство &b%prop% &cпредусмотрено. Действительные свойства: &bЭффект&c, &bСтиль&c, &bДанные.");
@@ -94,7 +94,7 @@ public class RussianLocale implements Locale {
             this.put("group-no-permission", "&cВы потеряли право использовать эффект или стиль в группе &b%group%&c!");
             this.put("group-preset-no-permission", "&cВы потеряли право использовать эффект или стиль в заданной группе &b%group%&c!");
             this.put("group-reserved", "&cНазвание группы &bактивно &cи не может быть использованно!");
-            this.put("group-no-name", "&cВы не ввели название группы! &b/pp %cmd% <названиеГруппы>");
+            this.put("group-no-name", "&cВы не ввели название группы! &b/pe %cmd% <названиеГруппы>");
             this.put("group-save-reached-max", "&cНевозможно сохранить группу, Вы превысили максимальное количество групп!");
             this.put("group-save-no-particles", "&cНевозможно сохранить группу, у Вас нет никаких приложенных частиц!");
             this.put("group-save-success", "&aВаши эффекты были сохранены в группе под названием &b%name%&a!");
@@ -113,7 +113,7 @@ public class RussianLocale implements Locale {
             this.put("reload-no-permission", "&cВы не имеете права, чтобы перезагружать параметры плагина!");
 
             this.put("#9", "Remove Messages");
-            this.put("remove-no-args", "&cВы не ввели ID для удаления! &b/pp remove <ID>");
+            this.put("remove-no-args", "&cВы не ввели ID для удаления! &b/pe remove <ID>");
             this.put("remove-id-success", "&aВаши частицы под ID &b%id% &aбыли успешно удалены!");
             this.put("remove-effect-success", "&aКоличество удалённых частиц - &b%amount% &a, эффектов - &b%effect%&a!");
             this.put("remove-effect-none", "&cУ Вас нет каких-либо частиц с эффектом &b%effect%&c!");
@@ -140,14 +140,14 @@ public class RussianLocale implements Locale {
 
             this.put("#13", "Effect Messages");
             this.put("effect-no-permission", "&cУ Вас нет прав использовать эффект &b%effect% &c!");
-            this.put("effect-invalid", "&cЭффект &b%effect% &cне существует! Введите &b/pp effects, &cчтобы узнать доступные Вам эффекты.");
+            this.put("effect-invalid", "&cЭффект &b%effect% &cне существует! Введите &b/pe effects, &cчтобы узнать доступные Вам эффекты.");
             this.put("effect-list", "&eВы можете использовать следующие эффекты: &b%effects%");
             this.put("effect-list-empty", "&cУ Вас нет права использовать какие-либо эффекты!");
 
             this.put("#14", "Style Messages");
             this.put("style-no-permission", "&cУ Вас нет прав использовать стиль &b%style% &c!");
             this.put("style-event-spawning-info", "&eЗаписка: стиль &b%style% &eспавнит частицы во время Ивента.");
-            this.put("style-invalid", "&cСтиль &b%style% &cне существует! Введите &b/pp styles &cчтобы узнать доступные Вам стили.");
+            this.put("style-invalid", "&cСтиль &b%style% &cне существует! Введите &b/pe styles &cчтобы узнать доступные Вам стили.");
             this.put("style-list", "&eВы можете использовать следующие стили: &b%styles%");
 
             this.put("#15", "Data Messages");
@@ -184,7 +184,7 @@ public class RussianLocale implements Locale {
             this.put("fixed-create-style-invalid", "&cНевозможно создать эффект, стиль под названием &b%style% &cне существует!");
             this.put("fixed-create-style-no-permission", "&cНевозможно создать эффект, у Вас нет права использовать стиль &b%style%&c!");
             this.put("fixed-create-style-non-fixable", "&cНевозможно создать эффект, стиль &b%style% &cне может быть использован!");
-            this.put("fixed-create-data-error", "&cНевозможно создать эффект, введённые данные неверны! Введите &b/pp data <Эффект>&c, чтобы найти правильный формат данных!");
+            this.put("fixed-create-data-error", "&cНевозможно создать эффект, введённые данные неверны! Введите &b/pe data <Эффект>&c, чтобы найти правильный формат данных!");
             this.put("fixed-create-success", "&aВаш эффект был создан!");
 
             this.put("#19", "Fixed Edit Messages");
@@ -199,7 +199,7 @@ public class RussianLocale implements Locale {
             this.put("fixed-edit-style-invalid", "&cНевозможно изменить эффект, стиль под названием &b%style% &cне существует!");
             this.put("fixed-edit-style-no-permission", "&cНевозможно изменить эффект, у Вас нет права использовать стиль &b%style%&c!");
             this.put("fixed-edit-style-non-fixable", "&cНевозможно изменить эффект, стиль &b%style% &cне может быть использован!");
-            this.put("fixed-edit-data-error", "&cНевозможно создать эффект, введённые данные неверны! Введите &b/pp data <Эффект>&c, чтобы найти правильный формат данных!");
+            this.put("fixed-edit-data-error", "&cНевозможно создать эффект, введённые данные неверны! Введите &b/pe data <Эффект>&c, чтобы найти правильный формат данных!");
             this.put("fixed-edit-data-none", "&cНевозможно изменить эффект, эффект не запрашивает какие-либо данные!");
             this.put("fixed-edit-success", "&aОбновлено эффектов под ID &b%id%&a - &b%prop%&a!");
 
@@ -234,7 +234,7 @@ public class RussianLocale implements Locale {
             this.put("#24", "Fixed Other Messages");
             this.put("fixed-no-permission", "&cУ Вас нет права, чтобы использовать этот эффект!");
             this.put("fixed-max-reached", "&cВы достигли максимального количества эффектов!");
-            this.put("fixed-invalid-command", "&cНедействительная команда для &b/pp fixed&c!");
+            this.put("fixed-invalid-command", "&cНедействительная команда для &b/pe fixed&c!");
 
             this.put("#25", "Plugin Update Message");
             this.put("update-available", "&eОбновление (&bv%new%&e) доступно! Ваша версия - &bv%current%&e. https://www.spigotmc.org/resources/playerparticles.40261/");
@@ -250,7 +250,7 @@ public class RussianLocale implements Locale {
             this.put("gui-color-unavailable", "&c");
 
             this.put("#28", "GUI Info Messages");
-            this.put("gui-commands-info", "Узнать подробнее о командах - &b/pp help");
+            this.put("gui-commands-info", "Узнать подробнее о командах - &b/pe help");
             this.put("gui-toggle-visibility-on", "Частицы в настоящее время &aвидны");
             this.put("gui-toggle-visibility-off", "В настоящее время частицы &cскрыты");
             this.put("gui-toggle-visibility-info", "Нажмите, чтобы переключить видимость частиц");
@@ -292,7 +292,7 @@ public class RussianLocale implements Locale {
             this.put("gui-save-group-full", "Вы достигли максимального числа групп!");
             this.put("gui-save-group-no-particles", "У Вас нет каких-либо активных частиц!");
             this.put("gui-save-group-hotbar-message", "&eВведите &b1 &eслово в чат, которое будет названием группы. Введите &cотмена&e для отмены.");
-            this.put("gui-save-group-chat-message", "&eИспользуйте &b/pp group save <имя> &eдля сохранения новой группы частиц.");
+            this.put("gui-save-group-chat-message", "&eИспользуйте &b/pe group save <имя> &eдля сохранения новой группы частиц.");
 
             this.put("#33", "GUI Reset Messages");
             this.put("gui-reset-particles", "Удалить ваши частицы");
